@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    background-color: #f2f1ef;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 15px 0;
+    display: block;
+    text-align: center;
+}
+
+.menu a:hover {
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+#main-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#text-div
+{
+    text-align: left;
+    border:solid #000;
+    background-color: bisque;
+   
+}
+
+#main-div
+{
+    text-align: center;
+}
+
